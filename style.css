@@ -1,0 +1,40 @@
+.first{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main{
+    background-image: url(watch.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    text-align: center;
+    margin-top: 170px;
+}
+
+.heading{
+    color: #505050 ;
+    display: inline;
+}
+
+.main1{
+    display: inline-block;  
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #FF9500;
+    width: 150px;
+    font-family: cursive;
+}
+
+.second{
+    margin-top: 10px;
+}
+
+.btn{
+    background-color: transparent !important;
+    color: white !important;
+    border-color: #505050 !important;
+    width: 7%;
+    font-family: cursive !important;
+}

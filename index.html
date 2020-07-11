@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="main">
+    <h1 class="heading">STOPWATCH</h1>
+    <div>
+        <div class="first">
+           <h1 id="min" class="main1">00</h1>
+           <h1 id="sec" class="main1">00</h1>
+           <h1 id="msec" class="main1">00</h1>
+        </div>
+        <div class="second">
+            <button onclick="start()" type="button" class="btn btn-warning" style="color: green !important;">Start</button>
+            <button onclick="pause()" type="button" class="btn btn-warning" style="color: red !important;">Stop</button>
+            <button onclick="reset()" type="button" class="btn btn-warning">Reset</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
